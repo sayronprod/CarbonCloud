@@ -1,0 +1,174 @@
+﻿<div class="userInfo" style="display:none;">
+    <p>Вы вошли как: <span class="userName"></span></p>
+    <input type="button" value="Выйти" id="logOut" />
+</div>
+
+<div>
+    <input type="submit" id="getItemsButton" value="Получить данные" />
+</div>
+
+<div>
+    <label>Введите пароль</label><br />
+    <input type="password" id="passfordelete" /><br /><br />
+    <input type="submit" id="deletebutton" value="Удалить аккаунт" />
+</div>
+
+<div class="loginForm">
+    <h3>Вход на сайт</h3>
+    <label>Введите email</label><br />
+    <input type="email" id="emailLogin" /> <br /><br />
+    <label>Введите пароль</label><br />
+    <input type="password" id="passwordLogin" /><br /><br />
+    <input type="submit" id="submitLogin" value="Логин" />
+</div>
+<div>
+    <label>Введите email</label><br />
+    <input type="email" id="emailforenter" /> <br /><br />
+    <label>Введите код подтверджения</label><br />
+    <input type="text" id="codefromemail" /> <br /><br />
+    <input type="submit" id="sentcode" value="Подтвердить" />
+</div>
+
+<div>
+    <label>Введите Ваше имя</label><br />
+    <input type="text" id="name" /><br /><br />
+    <label>Введите email</label><br />
+    <input type="email" id="email" /> <br /><br />
+    <label>Введите пароль</label><br />
+    <input type="password" id="password" /><br /><br />
+    <label>Подтвердите пароль</label><br />
+    <input type="password" id="confirmpassword" /><br /><br />
+    <input type="submit" id="submitRegister" value="Регистрация" />
+</div>
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            var tokenKey = "tokenInfo";
+            //sentcode
+            $('#sentcode').click(function (e) {
+                e.preventDefault();
+                var data = {
+                    code: $('#codefromemail').val(),
+                    email: $('#emailforenter').val()
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/api/Account/SentCode',
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify(data),
+                    success: function (data) {
+                        alert("Регистрация успешна!");
+                    },
+                    error: function (data) {
+                        alert("Неправильный код!");
+                    }
+                });
+            });
+            //register
+            $('#submitRegister').click(function (e) {
+                e.preventDefault();
+                var data = {
+                    Name: $('#name').val(),
+                    Email: $('#email').val(),
+                    Password: $('#password').val(),
+                    ConfirmPassword: $('#confirmpassword').val()
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/api/Account/Register',
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify(data),
+                    success: function (data) {
+                        alert("Код отправлен на Ваш email");
+                        location.reload();
+                    },
+                    error: function (data) {
+                        alert("В процесе регистрации возникла ошибка");
+                    }
+                });
+            });
+            //login            
+            $('#submitLogin').click(function (e) {
+                e.preventDefault();
+                var loginData = {
+                    grant_type: 'password',
+                    username: $('#emailLogin').val(),
+                    password: $('#passwordLogin').val()
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/Token',
+                    data: loginData,
+                    success: function (data) {
+                        alert("Вход выполнен");
+                        $('.userName').text(data.userName);
+                        $('.userInfo').css('display', 'block');
+                        $('.loginForm').css('display', 'none');
+                        // сохраняем в хранилище sessionStorage токен доступа
+                        sessionStorage.setItem(tokenKey, data.access_token);
+                        console.log(data.access_token);
+                    },
+                    error: function (data) {
+                        alert("Неверный логин или пароль")
+                    }
+                })
+            });
+            //logout
+            $('#logOut').click(function (e) {
+                e.preventDefault();
+                sessionStorage.removeItem(tokenKey);
+                location.reload();
+            });
+            //deleteaccount
+            $('#deletebutton').click(function (e) {
+                e.preventDefault();
+                var deletedata = {
+                    userPass: $('#passfordelete').val()
+                };
+                $.ajax({
+                    type: 'POST',
+                    url: '/api/Account/Delete',
+                    data: deletedata,
+                    beforeSend: function (xhr) {
+
+                        var token = sessionStorage.getItem(tokenKey);
+                        xhr.setRequestHeader("Authorization", "Bearer " + token);
+                    },
+                    success: function (data) {
+                        alert(data);
+                    },
+                    error: function (data) {
+                        alert(data);
+                    }
+                });
+            });
+            
+            //Get
+            $('#getItemsButton').click(function (e) {
+                e.preventDefault();
+                var dataget = {
+                    path: 'dima'
+                };
+                $.ajax({
+                    type: 'GET',
+                    url: '/api/values',
+                    data: dataget,
+                    beforeSend: function (xhr) {
+
+                        var token = sessionStorage.getItem(tokenKey);
+                        xhr.setRequestHeader("Authorization", "Bearer " + token);
+                    },
+                    success: function (data) {
+                        alert(data);
+                    },
+                    error: function (data) {
+                        alert(data);
+                    }
+                });
+            });
+        });
+    </script>
+}

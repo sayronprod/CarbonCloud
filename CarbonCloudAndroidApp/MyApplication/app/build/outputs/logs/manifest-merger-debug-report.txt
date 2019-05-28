@@ -1,0 +1,228 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c4ee8708583443f8908fa10f8ec4f457\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\6a4f4f088de0abeb8e4db851309cb02e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\386368d36a34f77622f7e47f9f29f604\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\93d48245e749e88ecc889849a4f8fd86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\6d628d09ef69bbd239617723d1bcf47e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1d28160d076947c4bd375c5d5c97c2f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a5f3edb5485f8193476d132197bb5740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\55e4d3c5787a41bb17a7147277ae4ddb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2d539a474ff20d985d2bd8346b442f92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\86996e37b2c322ad3e7767fc222b4fa5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\27bbecd43c300ec2352519cea9df53c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\efc78fcd3449aee69586e8e790433df3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65756d2fcb1744fe460411667746a219\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5bff6b41a3b6a0744d741ba46f83d725\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f778b637d8102cc1dd3c8918ececc026\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8739cffaa91c587c7a06a4aff7385ab2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b2525bbb1c6d86bb245f3b7e8ef76868\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0df16d050cb983dff254d2dd7f34e6c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\19dfe0928a32c08736252dccb9e3c58c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a50bf204cf6629f5837f27c9bb8c613a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0fb42d42cb0adf61213c4cde65809028\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f32d358436e98fe9e909b0338b446e16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\1d78f0fe7a5b52ff1b7638f71d568a36\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5539fb2f0d7727b5073b8e66f937c1e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\eb04a4026148b3c1cab27640d3869e76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c01eb6903087db3642f18838d1a5db03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\2ca00d3d12ad765dd035d1939ecc1cc4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbd5ca81b2e66061585ebce6007aacd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1c48315cc5d7fd4533ab960e2c92d555\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c657d59f713cc65d8812b341f4e74d9a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dfc1cdd6030ac79b943445ec2f44bb7d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9036ffd92b814ca8c1144a38b7c9e737\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:5-42:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c4ee8708583443f8908fa10f8ec4f457\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c4ee8708583443f8908fa10f8ec4f457\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\386368d36a34f77622f7e47f9f29f604\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\386368d36a34f77622f7e47f9f29f604\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0fb42d42cb0adf61213c4cde65809028\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0fb42d42cb0adf61213c4cde65809028\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-37
+	tools:ignore
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:18:9-48
+	android:roundIcon
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:17:9-44
+activity#com.example.myapplication.EnterConfirmedCode
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:9-21:11
+	android:screenOrientation
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:19-53
+activity#com.example.myapplication.RegistrationActivity
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:9-23:51
+	android:screenOrientation
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:19-55
+activity#com.example.myapplication.MyDiskActivity
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:9-29:59
+	android:screenOrientation
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:27:13-49
+	android:label
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:13-59
+	android:windowSoftInputMode
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:28:13-67
+	android:theme
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:13-43
+activity#com.example.myapplication.MainActivity
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:30:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:32:13-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:35:13-67
+	android:theme
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c4ee8708583443f8908fa10f8ec4f457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c4ee8708583443f8908fa10f8ec4f457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\6a4f4f088de0abeb8e4db851309cb02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\6a4f4f088de0abeb8e4db851309cb02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\386368d36a34f77622f7e47f9f29f604\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\386368d36a34f77622f7e47f9f29f604\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\93d48245e749e88ecc889849a4f8fd86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\93d48245e749e88ecc889849a4f8fd86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\6d628d09ef69bbd239617723d1bcf47e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\6d628d09ef69bbd239617723d1bcf47e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1d28160d076947c4bd375c5d5c97c2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1d28160d076947c4bd375c5d5c97c2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a5f3edb5485f8193476d132197bb5740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a5f3edb5485f8193476d132197bb5740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\55e4d3c5787a41bb17a7147277ae4ddb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\55e4d3c5787a41bb17a7147277ae4ddb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2d539a474ff20d985d2bd8346b442f92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\2d539a474ff20d985d2bd8346b442f92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\86996e37b2c322ad3e7767fc222b4fa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\86996e37b2c322ad3e7767fc222b4fa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\27bbecd43c300ec2352519cea9df53c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\27bbecd43c300ec2352519cea9df53c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\efc78fcd3449aee69586e8e790433df3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\efc78fcd3449aee69586e8e790433df3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65756d2fcb1744fe460411667746a219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\65756d2fcb1744fe460411667746a219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5bff6b41a3b6a0744d741ba46f83d725\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5bff6b41a3b6a0744d741ba46f83d725\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f778b637d8102cc1dd3c8918ececc026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f778b637d8102cc1dd3c8918ececc026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8739cffaa91c587c7a06a4aff7385ab2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8739cffaa91c587c7a06a4aff7385ab2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b2525bbb1c6d86bb245f3b7e8ef76868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b2525bbb1c6d86bb245f3b7e8ef76868\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0df16d050cb983dff254d2dd7f34e6c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\0df16d050cb983dff254d2dd7f34e6c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\19dfe0928a32c08736252dccb9e3c58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\19dfe0928a32c08736252dccb9e3c58c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a50bf204cf6629f5837f27c9bb8c613a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a50bf204cf6629f5837f27c9bb8c613a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f61e7960d6c6e0c9cee2acfb2ef2cf68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0fb42d42cb0adf61213c4cde65809028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0fb42d42cb0adf61213c4cde65809028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f32d358436e98fe9e909b0338b446e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f32d358436e98fe9e909b0338b446e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\1d78f0fe7a5b52ff1b7638f71d568a36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\1d78f0fe7a5b52ff1b7638f71d568a36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5539fb2f0d7727b5073b8e66f937c1e2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5539fb2f0d7727b5073b8e66f937c1e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\eb04a4026148b3c1cab27640d3869e76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\eb04a4026148b3c1cab27640d3869e76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c01eb6903087db3642f18838d1a5db03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c01eb6903087db3642f18838d1a5db03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\2ca00d3d12ad765dd035d1939ecc1cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\2ca00d3d12ad765dd035d1939ecc1cc4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbd5ca81b2e66061585ebce6007aacd8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bbd5ca81b2e66061585ebce6007aacd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1c48315cc5d7fd4533ab960e2c92d555\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1c48315cc5d7fd4533ab960e2c92d555\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c657d59f713cc65d8812b341f4e74d9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c657d59f713cc65d8812b341f4e74d9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dfc1cdd6030ac79b943445ec2f44bb7d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dfc1cdd6030ac79b943445ec2f44bb7d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9036ffd92b814ca8c1144a38b7c9e737\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dima\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9036ffd92b814ca8c1144a38b7c9e737\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dima\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
