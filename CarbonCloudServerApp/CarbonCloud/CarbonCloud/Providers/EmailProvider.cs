@@ -9,7 +9,7 @@ namespace CarbonCloud.Providers
     {
         public static async Task SentCodeToEmail(string email, string code)
         {
-            var apiKey = "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";
+            var apiKey = "*****";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("noreplycorbondrive@gmail.com", "CarbonCloud");
             var subject = "Підтверження email";
